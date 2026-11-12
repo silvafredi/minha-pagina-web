@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frédi da Silva, Engenheiro de IA. Eu resolvo problemas de empresas e pessoas usando o poder da inteligência artificial.">
+  <meta name="theme-color" content="#0f766e">
+  <title>Frédi da Silva | Engenheiro de IA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio">Frédi da Silva</a>
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+      <div class="container">
+        <p class="eyebrow reveal">Engenheiro de IA</p>
+        <h1 class="hero-title reveal">Frédi da Silva</h1>
+        <p class="hero-lead reveal">Eu resolvo problemas de empresas e pessoas usando o poder da inteligência artificial.</p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+          <a class="btn btn-ghost" href="#contato">Entrar em contato</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Sobre</h2>
+        <p class="section-text reveal">
+          Sou um profissional que atuou por 15 anos na área comercial e, depois, aprendeu IA para resolver problemas de empresas e pessoas.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title reveal">Projetos e experiências</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card-tag">DCA Américas</span>
+            <h3 class="card-title">Achei Obras</h3>
+            <p class="card-text">Plataforma que disponibiliza dados de futuras obras no Brasil com até 12 meses de antecedência. A solução foi usada na prospecção do time comercial.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-tag">Empresa própria</span>
+            <h3 class="card-title">Compara Mercado</h3>
+            <p class="card-text">Aplicativo que compara preços entre mercados locais e mostra ao consumidor onde é mais barato comprar uma lista de produtos nos supermercados da região.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-tag">Empresa própria</span>
+            <h3 class="card-title">TR BOM</h3>
+            <p class="card-text">Solução que analisa o Termo de Referência de uma licitação e identifica no mercado o produto ou a solução que atende às especificações do edital.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Habilidades</h2>
+        <ul class="skills">
+          <li class="skill reveal">Pensamento criativo</li>
+          <li class="skill reveal">Curiosidade</li>
+          <li class="skill reveal">Comunicação</li>
+          <li class="skill reveal">Didática</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title reveal">Contato</h2>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p class="contact-item">
+              <span class="contact-label">E-mail</span>
+              <span class="contact-value">silva.fredi@gmail.com</span>
+            </p>
+            <button type="button" class="btn btn-primary" id="copy-email" data-email="silva.fredi@gmail.com">
+              Copiar e-mail
+            </button>
+            <span class="copy-status" id="copy-status" aria-live="polite"></span>
+
+            <p class="contact-item">
+              <span class="contact-label">Telefone</span>
+              <a class="contact-value" href="tel:+5547991442653">(47) 99144-2653</a>
+            </p>
+
+            <a class="linkedin" href="https://www.linkedin.com/in/fredi-silva-8913b278/" target="_blank" rel="noopener noreferrer" aria-label="Perfil do LinkedIn de Frédi da Silva">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <div class="field">
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+              <p class="error" id="name-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+              <p class="error" id="email-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="message">Mensagem</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <p class="error" id="message-error" role="alert"></p>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Enviar mensagem</button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Frédi da Silva. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
